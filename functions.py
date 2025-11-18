@@ -12,7 +12,7 @@ def calculate_cube(num):
     
 def is_valid_score(score):
     # Checks if a given score is within the valid range (0 to 100, inclusive).
-    if score > 0 and score < 100:
+    if score >= 0 and score <= 100:
         return True
     else:
         return False
